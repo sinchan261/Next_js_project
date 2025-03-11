@@ -18,7 +18,7 @@ setVerified(true);
     useEffect(()=>{
   const urltoken=window.location.search.split("=")[1];
   setToken(urltoken)
-    },[])
+    },[token])
     useEffect(()=>{
         if(token.length>0)
             verifyUserEmail()
