@@ -5,3 +5,8 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+ export type usersignup={
+  email:string,
+  password:string,
+  username:string
+}
